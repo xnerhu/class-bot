@@ -1,0 +1,49 @@
+{
+  "name": "class-bot",
+  "version": "2.0.0",
+  "description": "A facebook chat bot made for my class.",
+  "keywords": [
+    "facebook-chat-api",
+    "fb-chat-api-buttons",
+    "facebook",
+    "bot",
+    "messenger",
+    "nodejs",
+    "typescript"
+  ],
+  "author": {
+    "name": "Mikołaj Palkiewicz",
+    "email": "xnerhu@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xnerhu/class-bot.git"
+  },
+  "homepage": "https://github.com/xnerhu/class-bot#readme",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "pm2 start ./build/index.js --name \"class-bot\"",
+    "stop": "pm2 stop class-bot",
+    "restart": "pm2 restart class-bot",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/axios": "0.14.0",
+    "@types/dotenv": "6.1.0",
+    "@types/express": "4.16.1",
+    "@types/node": "11.9.5",
+    "nodemon": "1.18.10",
+    "typescript": "3.3.3333"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "dotenv": "6.2.0",
+    "express": "4.16.4",
+    "facebook-chat-api": "1.6.1",
+    "fb-chat-api-buttons": "1.1.2",
+    "node-wolfram-alpha": "1.2.5",
+    "pm2": "3.3.1",
+    "ts-node": "8.0.2"
+  }
+}

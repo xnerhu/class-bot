@@ -1,0 +1,13 @@
+node_modules
+*.log
+*.log*
+build
+dist
+.vscode
+.vs
+app-state.json
+server.js
+.env
+test
+uonet-account.json
+db.json
