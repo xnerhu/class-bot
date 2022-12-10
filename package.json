@@ -39,7 +39,7 @@
   "dependencies": {
     "axios": "0.18.1",
     "dotenv": "6.2.0",
-    "express": "4.16.4",
+    "express": "4.17.3",
     "facebook-chat-api": "1.6.1",
     "fb-chat-api-buttons": "1.1.2",
     "node-wolfram-alpha": "1.2.5",
